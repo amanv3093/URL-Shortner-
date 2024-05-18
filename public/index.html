@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>URL Shortener</title>
+  </head>
+  <body>
+    <h1>URL Shortener</h1>
+    <form id="urlForm" action="http://localhost:8001/url" method="post">
+      <label for="url">Enter a URL:</label>
+      <input type="text" id="url" name="url" required />
+      <button type="submit">Submit</button>
+    </form>
+    <p id="result"></p>
+  </body>
+</html>
